@@ -1,0 +1,29 @@
+.header-image > img{
+    width:120px;
+    height:60px;
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    padding:10px 0px 0px 20px;
+    margin: 12px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.nav-items .ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+}
+.nav-items .li{
+    margin: 10px;
+    padding: 10px;
+}
+.nav-items .li:hover{
+    cursor: pointer;
+    color:#27ae60;
+}

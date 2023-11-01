@@ -1,0 +1,27 @@
+{
+  "name": "marketing_project",
+  "version": "1.0.0",
+  "description": "this is a project for react",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatyaaaaSai/Marketing_Project.git"
+  },
+  "keywords": [
+    "pro"
+  ],
+  "author": "Satya Sai",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
