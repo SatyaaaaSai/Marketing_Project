@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
 .header-image > img{
     width:120px;
     height:60px;
@@ -27,3 +33,58 @@
     cursor: pointer;
     color:#27ae60;
 }
+/* .header-text{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 30px;
+} */
+.main-text{
+    padding-left: 300px;
+    margin-left: 20px;
+    margin-top:100px;
+    font-size: 60px;
+}
+/* .main-text  span{
+    color:#ff004f;
+} */
+.sub-text {
+    margin-left: 630px;
+    margin-top: 15px;
+    font-size: 35px;
+}
+/* Add this CSS to your stylesheet */
+.main-text .floating-letters {
+    color: #ff004f;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100px;
+    animation: typing 8s steps(80) infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 100px; 
+    }
+    to {
+      width: 0;
+    }
+  }
+
+
+
+
+
+.feature{
+    width:300px;
+    height:200px;
+    background-color:darkgrey;
+    margin-left:20px;
+    padding:10px
+}
+.feature-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
