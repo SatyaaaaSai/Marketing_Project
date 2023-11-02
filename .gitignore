@@ -2,3 +2,4 @@
 /.dist
 /.parcel-cache
 /.react-icons
+/.node_modules
